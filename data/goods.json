@@ -1,16 +1,83 @@
 {
-    "Water": {
-        "building": "Water Siphon",
-        "tier": 0,
-        "cycle_time_days": 7.5,
-        "output_per_harvester": 1,
-        "inputs": [],
-        "notes": ["Placed near water sources"]
-    },
-    "Wooden Planks": {
-      "building": "Carpentry",
-      "tier": 1,
-      "inputs": [{"item": "Wood", "quantity": 3}],
-      "output": 1
-    }
+  "Water": {
+      "building": "Water Siphon / Water Well",
+      "tier": 0,
+      "production_time_days": 7.5,
+      "output_per_harvester": 1,
+      "inputs": [],
+      "notes": ["Placed near water sources (rivers, lakes, oceans). No additional factors mentioned.", "Alternative to siphon for land-based water extraction. Similar to siphon."],
+      "state_price": 521.63
+  },
+  "Sand": {
+      "building": "Sand Collector",
+      "tier": 0,
+      "production_time_days": 7.5,
+      "output_per_harvester": 1,
+      "inputs": [],
+      "notes": ["Placed near coasts. No additional factors."],
+      "state_price": 521.63
+  },
+  "Wood": {
+      "building": "Lumberyard",
+      "tier": 0,
+      "production_time_days": 7.5,
+      "output_per_harvester": 1,
+      "inputs": [],
+      "notes": ["Placed near trees.", "Production rate increases by 25% per reserved tree (up to 4 trees for +100%, reducing effective cycle to ~3.75 days).", "Trees can deplete; use terraforming to plant more."],
+      "state_price": 521.63
+  },
+  "Fish": {
+      "building": "Fisherman's Pier",
+      "tier": 0,
+      "production_time_days": 10,
+      "output_per_harvester": 1,
+      "inputs": [],
+      "notes": ["Placed near fish schools in water. No additional factors."],
+      "state_price": 758.20
+  },
+  "Iron Ore": {
+      "building": "Iron Mine",
+      "tier": 0,
+      "production_time_days": 10,
+      "output_per_harvester": 1,
+      "inputs": [],
+      "notes": ["Placed near iron deposits. No additional factors (assumed similar to coal mine)."],
+      "state_price": 1800.00
+  },
+  "Coal": {
+      "building": "Coal Mine",
+      "tier": 0,
+      "production_time_days": 10,
+      "output_per_harvester": 1,
+      "inputs": [],
+      "notes": ["Placed near coal deposits. No additional factors."],
+      "state_price": 758.20
+  },
+  "Copper": {
+      "building": "Copper Mine",
+      "tier": 0,
+      "production_time_days": 10,
+      "output_per_harvester": 1,
+      "inputs": [],
+      "notes": ["Placed near copper deposits. No additional factors (assumed similar to other mines)."],
+      "state_price": 1800.00
+  },
+  "Gas": {
+      "building": "Gas Pump",
+      "tier": 0,
+      "production_time_days": 10,
+      "output_per_harvester": 1,
+      "inputs": [],
+      "notes": ["Placed near gas deposits. No additional factors (assumed similar to mines)."],
+      "state_price": 1866.91
+  },
+  "Oil": {
+      "building": "Oil Drill / Offshore Oil Drill",
+      "tier": 0,
+      "production_time_days": 10,
+      "output_per_harvester": 1,
+      "inputs": [],
+      "notes": ["Placed near oil deposits (land or offshore). No additional factors (assumed similar to mines)."],
+      "state_price": 900.00
   }
+}
