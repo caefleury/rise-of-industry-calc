@@ -1,83 +1,65 @@
 {
-  "Water": {
-      "building": "Water Siphon / Water Well",
+  "water": {
+      "buildings": ["water_well"],
       "tier": 0,
-      "production_time_days": 7.5,
-      "output_per_harvester": 1,
+      "production_time_days": 15,
       "inputs": [],
-      "notes": ["Placed near water sources (rivers, lakes, oceans). No additional factors mentioned.", "Alternative to siphon for land-based water extraction. Similar to siphon."],
-      "state_price": 521.63
+      "notes": ["Placed near water sources (rivers, lakes, oceans)"]
   },
-  "Sand": {
-      "building": "Sand Collector",
-      "tier": 0,
-      "production_time_days": 7.5,
-      "output_per_harvester": 1,
-      "inputs": [],
-      "notes": ["Placed near coasts. No additional factors."],
-      "state_price": 521.63
-  },
-  "Wood": {
-      "building": "Lumberyard",
-      "tier": 0,
-      "production_time_days": 7.5,
-      "output_per_harvester": 1,
-      "inputs": [],
-      "notes": ["Placed near trees.", "Production rate increases by 25% per reserved tree (up to 4 trees for +100%, reducing effective cycle to ~3.75 days).", "Trees can deplete; use terraforming to plant more."],
-      "state_price": 521.63
-  },
-  "Fish": {
-      "building": "Fisherman's Pier",
+  "sand": {
+      "building": "sand_collector",
       "tier": 0,
       "production_time_days": 10,
-      "output_per_harvester": 1,
       "inputs": [],
-      "notes": ["Placed near fish schools in water. No additional factors."],
-      "state_price": 758.20
+      "notes": ["Placed near coasts"]
   },
-  "Iron Ore": {
-      "building": "Iron Mine",
+  "wood": {
+      "building": "lumberyard",
       "tier": 0,
-      "production_time_days": 10,
-      "output_per_harvester": 1,
+      "production_time_days": 15,
       "inputs": [],
-      "notes": ["Placed near iron deposits. No additional factors (assumed similar to coal mine)."],
-      "state_price": 1800.00
+      "notes": ["Placed near trees.", "Production rate increases by 25% per reserved tree (up to 4 trees for +100%, reducing effective cycle to ~3.75 days).", "Trees can deplete; use terraforming to plant more."]
   },
-  "Coal": {
-      "building": "Coal Mine",
+  "fish": {
+      "building": "fisherman_pier",
       "tier": 0,
-      "production_time_days": 10,
-      "output_per_harvester": 1,
+      "production_time_days": 15,
       "inputs": [],
-      "notes": ["Placed near coal deposits. No additional factors."],
-      "state_price": 758.20
+      "notes": ["Placed near fish schools in water."]
   },
-  "Copper": {
-      "building": "Copper Mine",
+  "iron_ore": {
+      "building": "iron_mine",
       "tier": 0,
-      "production_time_days": 10,
-      "output_per_harvester": 1,
+      "production_time_days": 15,
       "inputs": [],
-      "notes": ["Placed near copper deposits. No additional factors (assumed similar to other mines)."],
-      "state_price": 1800.00
+      "notes": ["Placed near iron deposits."]
   },
-  "Gas": {
-      "building": "Gas Pump",
+  "coal": {
+      "building": "coal_mine",
       "tier": 0,
-      "production_time_days": 10,
-      "output_per_harvester": 1,
+      "production_time_days": 15,
       "inputs": [],
-      "notes": ["Placed near gas deposits. No additional factors (assumed similar to mines)."],
-      "state_price": 1866.91
+      "notes": ["Placed near coal deposits."]
   },
-  "Oil": {
-      "building": "Oil Drill / Offshore Oil Drill",
+  "copper_ore": {   
+      "building": "copper_mine",
       "tier": 0,
-      "production_time_days": 10,
-      "output_per_harvester": 1,
+      "production_time_days": 15,
       "inputs": [],
-      "notes": ["Placed near oil deposits (land or offshore). No additional factors (assumed similar to mines)."],
-      "state_price": 900.00
+      "notes": ["Placed near copper deposits."]
+  },
+  "natural_gas": {
+      "building": "gas_pump",
+      "tier": 0,
+      "production_time_days": 15,
+      "inputs": [],
+      "notes": ["Placed near gas deposits."]
+  },
+  "oil": {
+      "building": ["offshore_oil_drill","oil_drill"],
+      "tier": 0,
+      "production_time_days": 15,
+      "inputs": [],
+      "notes": ["Placed near oil deposits (land or offshore)."]
   }
 }
