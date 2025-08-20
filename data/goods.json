@@ -1,0 +1,16 @@
+{
+    "Water": {
+        "building": "Water Siphon",
+        "tier": 0,
+        "cycle_time_days": 7.5,
+        "output_per_harvester": 1,
+        "inputs": [],
+        "notes": ["Placed near water sources"]
+    },
+    "Wooden Planks": {
+      "building": "Carpentry",
+      "tier": 1,
+      "inputs": [{"item": "Wood", "quantity": 3}],
+      "output": 1
+    }
+  }
